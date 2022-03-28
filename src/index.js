@@ -21,13 +21,3 @@ serviceWorkerRegistration.register();
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-//@ts-ignore
-window.OneSignal = window.OneSignal || [];
-// eslint-disable-next-line no-undef
-OneSignal.push(function() {
-  // eslint-disable-next-line no-undef
-  OneSignal.init({
-    appId: "191c70a3-f0cf-44ae-aa5c-42f761c07730",
-  });
-});
